@@ -1,8 +1,8 @@
 import Link from "next/link";
 // Social media icons
-import Twitter from "../../assets/icons/Twitter.jsx";
-import GitHub from "../../assets/icons/GitHub.jsx";
-import LinkedIn from "../../assets/icons/LinkedIn.jsx";
+import Twitter from "../../public/icons/Twitter.jsx";
+import GitHub from "../../public/icons/GitHub.jsx";
+import LinkedIn from "../../public/icons/LinkedIn.jsx";
 
 export function SocialMedia() {
   return (

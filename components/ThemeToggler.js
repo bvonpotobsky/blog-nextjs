@@ -1,8 +1,8 @@
 import { useTheme } from "next-themes";
 
 // Theme icons
-import Moon from "../assets/icons/Moon.jsx";
-import Sun from "../assets/icons/Sun.jsx";
+import Moon from "../public/icons/Moon.jsx";
+import Sun from "../public/icons/Sun.jsx";
 
 export const ThemeToggler = () => {
   const { theme, setTheme } = useTheme("light");

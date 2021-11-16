@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Benjamín von Potobsky</title>
       </Head>
-      <h1 className="font-semibold tracking-wide text-center text-2xl my-2">
+      <h1 className="font-semibold tracking-wide text-center text-2xl py-2">
         Benjamín von Potobsky
       </h1>
       <ThemeToggler />
