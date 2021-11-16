@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { Header } from "../components/Header";
 
 const contact = () => {
   return (
@@ -7,7 +6,7 @@ const contact = () => {
       <Head>
         <title>Marcos| Web Developer</title>
       </Head>
-      <Header />
+      <h1>Hola Soy contact PAge</h1>
     </div>
   );
 };

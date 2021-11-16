@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-import { Header } from "../components/Header";
+import { ThemeToggler } from "../components/ThemeToggler";
 
 // Social media icons
 import Twitter from "../assets/icons/Twitter.jsx";
@@ -14,11 +14,11 @@ export default function Home() {
       <Head>
         <title>Benjamín von Potobsky</title>
       </Head>
-      <Header />
-      <h1 className="font-semibold tracking-wide text-center text-2xl mt-5">
+      <h1 className="font-semibold tracking-wide text-center text-2xl my-2">
         Benjamín von Potobsky
       </h1>
-      <p className="tracking-wide text-center text-md mt-8 mx-3">
+      <ThemeToggler />
+      <p className="tracking-wide text-center text-md mt-2 mx-3">
         FrontEnd Developer from Argentina.
       </p>
       <p className="tracking-wide text-center text-md mx-3">
@@ -28,17 +28,17 @@ export default function Home() {
 
       <div className="flex flex-row justify-evenly mt-10">
         <Link href="https://twitter.com/bvonpotobsky">
-          <a target="_blank">
+          <a className="hoverSocialMedia" target="_blank">
             <Twitter />
           </a>
         </Link>
         <Link href="https://github.com/bvonpotobsky">
-          <a target="_blank">
+          <a className="hoverSocialMedia" target="_blank">
             <GitHub />
           </a>
         </Link>
         <Link href="https://www.linkedin.com/in/bvonpotobsky/">
-          <a target="_blank">
+          <a className="hoverSocialMedia" target="_blank">
             <LinkedIn />
           </a>
         </Link>
