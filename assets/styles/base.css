@@ -1,0 +1,3 @@
+.pageDefault {
+  @apply container w-full h-screen bg-white dark:bg-black transition-colors;
+}
