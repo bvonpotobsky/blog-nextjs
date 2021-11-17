@@ -18,7 +18,7 @@ export const Header = () => {
 
       <nav className={`mobileNavbar ${showNav}`}>
         <Link href="/">
-          <a className="mt-14">Home</a>
+          <a className="mt-28">Home</a>
         </Link>
         <Link href="/about">
           <a className="mt-4">About</a>

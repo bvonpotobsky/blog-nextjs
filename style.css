@@ -11,3 +11,14 @@
 .mobileNavbar {
   @apply absolute top-12 left-0 flex flex-col items-center justify-start w-full h-screen text-3xl bg-white dark:bg-black font-semibold leading-10 duration-200 ease-linear;
 }
+
+.blinking-cursor:after {
+  content: "|";
+  animation: blink 0.5s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

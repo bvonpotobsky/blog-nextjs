@@ -2,7 +2,13 @@ import Head from "next/head";
 import { Header } from "../components/Header";
 import { SocialMedia } from "../components/SocialMedia/SocialMedia";
 
+import { useTypeSuperPower } from "../hooks/useTypeSuperPower";
+
 export default function Home() {
+  const supertype = "Benjamín von Potobsky";
+
+  const superpower = useTypeSuperPower(supertype);
+
   return (
     <div className="pageDefault">
       <Head>
@@ -11,8 +17,8 @@ export default function Home() {
 
       <Header />
 
-      <h1 className="font-bold tracking-wide text-center text-2xl py-2">
-        Benjamín von Potobsky
+      <h1 className="font-bold tracking-wide text-center text-2xl py-2 blinking-cursor">
+        {superpower}
       </h1>
 
       <p className="tracking-wide text-center text-xl mt-2 mx-3">
