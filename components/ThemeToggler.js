@@ -8,7 +8,7 @@ export const ThemeToggler = () => {
   const { theme, setTheme } = useTheme("light");
 
   return (
-    <section className="w-full text-center">
+    <>
       {theme === "light" ? (
         <button onClick={() => setTheme("dark")}>
           <Moon />
@@ -18,6 +18,6 @@ export const ThemeToggler = () => {
           <Sun />
         </button>
       )}
-    </section>
+    </>
   );
 };

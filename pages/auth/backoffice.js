@@ -1,12 +1,8 @@
-import Head from "next/head";
 import Link from "next/link";
 
-const contact = () => {
+const backoffice = () => {
   return (
     <div className="pageDefault">
-      <Head>
-        <title> Lucho | Web Developer</title>
-      </Head>
       <h1>Hola Soy contact PAge</h1>
 
       <Link href="/">
@@ -16,4 +12,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default backoffice;
