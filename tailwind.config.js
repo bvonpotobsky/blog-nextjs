@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         nunito: ["Nunito", ...defaultTheme.fontFamily.sans],
+        nunitoSans: ["Nunito Sans", ...defaultTheme.fontFamily.sans],
       },
     },
   },

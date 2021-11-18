@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
+import { SocialMedia } from "../components/SocialMedia/SocialMedia";
 import { ThemeToggler } from "../components/ThemeToggler";
 import { Squash } from "hamburger-react";
 
@@ -29,6 +30,7 @@ export const Header = () => {
         <Link href="/contact">
           <a className="mt-4">Contact</a>
         </Link>
+        <SocialMedia />
       </nav>
     </header>
   );

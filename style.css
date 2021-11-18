@@ -9,12 +9,16 @@
 }
 
 .mobileNavbar {
-  @apply absolute top-12 left-0 flex flex-col items-center justify-start w-full h-screen text-3xl bg-white dark:bg-black font-semibold leading-10 duration-200 ease-linear;
+  @apply absolute top-12 left-0 flex flex-col items-center justify-start w-full h-screen text-3xl bg-white dark:bg-black font-semibold leading-10 duration-200 ease-linear z-50;
 }
 
-.blinking-cursor:after {
+.end-cursor:after {
   content: "|";
-  animation: blink 0.5s step-start infinite;
+}
+
+.end-cursor.blinking:after {
+  animation: blink 1s step-start infinite;
+  @apply z-0;
 }
 
 @keyframes blink {

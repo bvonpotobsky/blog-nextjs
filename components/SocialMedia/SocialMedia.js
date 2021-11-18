@@ -6,7 +6,7 @@ import LinkedIn from "../../public/icons/LinkedIn.jsx";
 
 export function SocialMedia() {
   return (
-    <div className="flex flex-row justify-evenly mt-10">
+    <div className="w-40 flex flex-row justify-between mt-10">
       <Link href="https://twitter.com/bvonpotobsky">
         <a className="hoverSocialMedia" target="_blank">
           <Twitter />
